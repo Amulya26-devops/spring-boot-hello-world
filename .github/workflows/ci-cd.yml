@@ -46,4 +46,4 @@ jobs:
             docker rm $(docker ps -aq) || true
             docker rmi $(docker images -q) || true
             docker rm $(docker ps -aq) || true
-            docker rmi $(docker images -q) || tru
+            docker rmi $(docker images -q) || true
